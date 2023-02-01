@@ -1,4 +1,11 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    max-width: 50%;
+  }
 }
